@@ -11,7 +11,7 @@
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://app.graphite.dev/github/pr/*/*/*/*"],
+      "matches": ["https://app.graphite.com/github/pr/*/*/*/*"],
       "js": ["content.js"],
       "run_at": "document_end"
     }
